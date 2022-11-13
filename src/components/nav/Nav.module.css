@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+
+  position: absolute;
+  width: 519px;
+  height: 24px;
+  left: 766px;
+  top: 25px;
+}
+@media (max-width: 700px) {
+  .nav {
+    display: block;
+
+    padding: 0px;
+
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 0;
+    top: 0;
+  }
+  .navitem {
+    display: none;
+  }
+}

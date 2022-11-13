@@ -1,0 +1,107 @@
+.card {
+  position: relative;
+  min-width: 358px;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardheader {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.carddate {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.cardbody {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 60%;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.coursecontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+.card::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eeaeae;
+  border-radius: 2.5px;
+}
+
+.cardfooter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+.footertext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+
+  color: #ffffff;
+}
+.referralamount {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0 0 15px 0;
+
+  color: #ffffff;
+}

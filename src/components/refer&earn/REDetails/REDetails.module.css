@@ -1,0 +1,48 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 0 5rem 0;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #800080;
+}
+.cardwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 30px 50px;
+}
+@media (max-width: 700px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 3rem 0 5rem 0;
+  }
+
+  .title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #800080;
+  }
+  .cardwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px 50px;
+  }
+}

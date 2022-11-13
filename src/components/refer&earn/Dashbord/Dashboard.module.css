@@ -1,0 +1,126 @@
+.dashboard {
+  width: 486px;
+  height: 188px;
+
+  background: #ffffff;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+.dashboardcomponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 70px;
+}
+.dashboardcomponenttitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0 0 5px 0;
+
+  color: #800080;
+}
+.dashboardcomponenttitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0 0 5px 0;
+
+  color: #800080;
+}
+
+.componenttext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0%;
+
+  color: #000000;
+}
+
+.dashboardbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  margin: auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  width: 180px;
+  height: 30px;
+
+  background: #800080;
+  border-radius: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .dashboard {
+    width: 100%;
+    height: auto;
+
+    background: #ffffff;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0rem 1rem 3rem 1rem;
+  }
+  .dashboardcomponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 70px;
+  }
+  .componenttext {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0%;
+
+    color: #000000;
+  }
+  .dashboardbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    margin: auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    width: 148px;
+    height: 24px;
+
+    background: #800080;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+}

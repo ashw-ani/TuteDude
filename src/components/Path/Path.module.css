@@ -1,0 +1,26 @@
+.path {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+
+  left: 187px;
+  top: 30px;
+}
+@media (max-width: 700px) {
+  .path {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+
+    left: 0;
+    top: 0;
+  }
+}

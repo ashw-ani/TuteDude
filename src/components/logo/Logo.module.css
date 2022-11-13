@@ -1,0 +1,20 @@
+.logo {
+  position: absolute;
+  width: 160px;
+  height: 63px;
+  left: 74px;
+  top: 6px;
+}
+.logo:hover {
+  transform: scale(1.01);
+}
+
+@media (max-width: 700px) {
+  .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: auto;
+  }
+}

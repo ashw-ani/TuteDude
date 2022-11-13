@@ -1,0 +1,23 @@
+.friendsenrolled {
+  display: block;
+  position: absolute;
+  top: 151px;
+  left: 187px;
+  width: 992px;
+}
+@media (max-width: 700px) {
+  .friendsenrolled {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 151px;
+    left: 0px;
+    width: 100vw;
+    padding: 0 0.5rem;
+    gap: 1rem 2rem;
+    box-sizing: border-box;
+  }
+}

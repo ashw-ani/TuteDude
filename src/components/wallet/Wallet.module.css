@@ -1,0 +1,49 @@
+.wallet {
+  box-sizing: border-box;
+  position: absolute;
+  width: 145px;
+  height: 85px;
+  left: 847px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+.wallettitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #800080;
+}
+.walletamount {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #000000;
+}
+@media (max-width: 700px) {
+  .wallet {
+    box-sizing: border-box;
+    position: relative;
+    width: 145px;
+    height: 85px;
+    left: 0;
+    top: 0;
+
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    padding: 0 10px;
+  }
+}

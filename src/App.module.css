@@ -1,0 +1,17 @@
+.referEarn {
+  position: relative;
+  width: 1366px;
+  height: 100vh;
+
+  background: #ffffff;
+  transition: all 0.5s;
+}
+
+@media (max-width: 700px) {
+  .referEarn {
+    position: relative;
+    width: 100vw;
+
+    background: #ffffff;
+  }
+}
